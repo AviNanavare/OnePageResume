@@ -1,0 +1,239 @@
+
+.body {
+    margin: 10px;
+}
+ 
+@font-face {
+    font-family: MyHeading ;
+    src: url(Font/JosefinSlab.ttf) ;
+}
+
+@font-face {
+    font-family: NavbarInfo ;
+    src: url(Font/Comfortaa.ttf) ;
+}
+
+.navbar {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #F2F2F2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 12px 24px;
+    text-decoration:none;
+    font-family: NavbarInfo/*Lucida Bright*/;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: white;
+    background-color: #2E2E2E;
+}
+
+.info {
+    margin-left: 15%;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.intro-inner{
+/*    border: 1px solid black; */ 
+    margin: 10% 10% 10% 10%;
+    width: 80%;
+    height: 480px;
+    display: flex;
+    box-shadow: 10px 10px 40px 3px #BDBDBD;
+}
+
+.dp {
+    width:31%;
+}
+
+.intro-detail {
+/*    border: 1px solid black;*/
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    background-color: #F7F2E0;
+}
+
+.intro-detail h1 {
+    font-size: 70px;
+    line-height: 40%;
+    font-family: MyHeading ;
+
+}
+
+.intro-detail h2 {
+    font-size: 30px;
+    line-height: 60%;
+    font-family: MyHeading ;
+
+}
+
+.intro-detail p {
+    font-size: 45px;
+    line-height: 20%;
+    font-family: MyHeading ;
+
+}
+
+/*--------- Desktop Display ---------- */
+
+@media (min-width: 1361px) {
+
+}
+
+
+/*--------- Tablet to Desktop Display ---------- */
+
+@media (max-width: 1360px) and (min-width: 1024px) {
+
+    .intro-detail h1 {
+        font-size: 50px;
+        line-height: 90%;
+        font-family: MyHeading ;
+    }
+
+    .intro-detail h2 {
+        font-size: 20px;
+        line-height: 80%;
+        font-family: MyHeading ;
+    }
+
+    .intro-detail p {
+        font-size: 33px;
+        line-height: 60%;
+        font-family: MyHeading ;
+    }
+
+    .intro-inner{
+/*    border: 1px solid black; */ 
+        margin: 8% 0% 8% 0%;
+        width: 100%;
+        height: 520px;
+        display: flex;
+        box-shadow: 10px 10px 40px 3px #BDBDBD;
+    }
+
+    .dp {
+        width:31%;
+        position: static;  
+    }
+
+
+}
+
+
+/*--------- Tab Display ---------- */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .intro-detail h1 {
+        font-size: 50px;
+        line-height: 90%;
+        font-family: MyHeading ;
+    }
+
+    .intro-detail h2 {
+        font-size: 20px;
+        line-height: 80%;
+        font-family: MyHeading ;
+    }
+
+    .intro-detail p {
+        font-size: 33px;
+        line-height: 60%;
+        font-family: MyHeading ;
+    }
+
+    .intro-inner{
+/*        border: 1px solid black;  */
+        margin: 8% 0% 8% 0%;
+        width: 100%;
+        height: 520px;
+        display: flex;
+        box-shadow: 10px 10px 40px 3px #BDBDBD;
+    }
+
+    .dp {
+        width:31%;
+        position: static;  
+    }
+
+    .navbar {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        background-color: #F2F2F2;
+        position: fixed;
+        height: auto;
+        width: 100%;
+        overflow: auto;
+    }
+
+    li a {
+        float: left;
+        display: inline;
+        color: black;
+        padding: 12px 24px;
+        text-decoration:none;
+        font-family: NavbarInfo/*Lucida Bright*/;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    li a:hover {
+        color: white;
+        background-color: #2E2E2E;
+    }
+
+    .info {
+        margin-left: 0px;
+/*        border:1px solid black;*/
+        height: auto;
+        background-color: white;
+    }
+
+    .intro-inner{
+/*    border: 1px solid black; */ 
+        margin: 10% 0% 10% 0%;
+        width: 100%;
+        height: 480px;
+        display: flex;
+        box-shadow: 10px 10px 40px 3px #BDBDBD;
+    }
+
+}
+
+
+/*--------- Mobile Display ---------- */
+
+@media (max-width: 768px) {
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
